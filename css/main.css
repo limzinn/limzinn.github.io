@@ -1,17 +1,17 @@
-ody {
-    margin: 60px auto;
-    width: 70%;
+@font-face {
+  font-family: 'hiragino-sansw1';
+  src: url('hiraginosansw6.otf');
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+
+body {
+    margin: 5% auto;
+    width: 100%;
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+
+.container{
+  width: 100%;
 }
+
 a {
     text-decoration: none;
     color: #999;
@@ -19,25 +19,20 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    width: 100%;
+    height:10%;
+    font-family: 'hiragino-sansw1', Helvetica, Arial;
+    text-align:center;
+    margin-top: 42.5vh;
+    margin-bottom: 42.5vh;
+    vertical-align: middle;
 }
+
 p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-}
-
-ul.posts {
-    margin: 20px auto 40px;
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
 }
